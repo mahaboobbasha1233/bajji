@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1604910628956
+Build-Jdk: 1.8.0_271
+Built-By: kmaha
+Bundle-Description: Creates a web service using Java code first
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Fabric8 :: Quickstarts :: Camel CXF Code First
+Bundle-SymbolicName: bajji.vankaya
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: bajji;uses:="javax.jws";version="1.0.0.SNAPSHOT"
+Import-Package: javax.jws,org.osgi.service.blueprint;version="[1.0.0,2.0
+ .0)"
+Tool: Bnd-1.50.0

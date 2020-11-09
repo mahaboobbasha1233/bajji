@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="bajji.OrderTest" time="9.716" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\NEW-PROJECTS\bajji\vankaya\target\test-classes;D:\NEW-PROJECTS\bajji\vankaya\target\classes;C:\Users\kmaha\.m2\repository\org\ow2\asm\asm-all\4.0\asm-all-4.0.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-core\2.13.1\camel-core-2.13.1.jar;C:\Users\kmaha\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.6\jaxb-impl-2.2.6.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-cxf\2.13.1\camel-cxf-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-spring\2.13.1\camel-spring-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\springframework\spring-aop\3.2.8.RELEASE\spring-aop-3.2.8.RELEASE.jar;C:\Users\kmaha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kmaha\.m2\repository\org\springframework\spring-tx\3.2.8.RELEASE\spring-tx-3.2.8.RELEASE.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-cxf-transport\2.13.1\camel-cxf-transport-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-frontend-jaxrs\2.7.11\cxf-rt-frontend-jaxrs-2.7.11.jar;C:\Users\kmaha\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0-m10\javax.ws.rs-api-2.0-m10.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-bindings-xml\2.7.11\cxf-rt-bindings-xml-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-frontend-jaxws\2.7.11\cxf-rt-frontend-jaxws-2.7.11.jar;C:\Users\kmaha\.m2\repository\xml-resolver\xml-resolver\1.2\xml-resolver-1.2.jar;C:\Users\kmaha\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-frontend-simple\2.7.11\cxf-rt-frontend-simple-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-ws-addr\2.7.11\cxf-rt-ws-addr-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-ws-policy\2.7.11\cxf-rt-ws-policy-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\neethi\neethi\3.0.3\neethi-3.0.3.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-rs-security-oauth\2.7.11\cxf-rt-rs-security-oauth-2.7.11.jar;C:\Users\kmaha\.m2\repository\net\oauth\core\oauth-provider\20100527\oauth-provider-20100527.jar;C:\Users\kmaha\.m2\repository\net\oauth\core\oauth\20100527\oauth-20100527.jar;C:\Users\kmaha\.m2\repository\org\springframework\spring-core\3.2.8.RELEASE\spring-core-3.2.8.RELEASE.jar;C:\Users\kmaha\.m2\repository\org\springframework\spring-beans\3.2.8.RELEASE\spring-beans-3.2.8.RELEASE.jar;C:\Users\kmaha\.m2\repository\org\springframework\spring-context\3.2.8.RELEASE\spring-context-3.2.8.RELEASE.jar;C:\Users\kmaha\.m2\repository\org\springframework\spring-expression\3.2.8.RELEASE\spring-expression-3.2.8.RELEASE.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-features-clustering\2.7.11\cxf-rt-features-clustering-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-bindings-soap\2.7.11\cxf-rt-bindings-soap-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-databinding-jaxb\2.7.11\cxf-rt-databinding-jaxb-2.7.11.jar;C:\Users\kmaha\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\kmaha\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\kmaha\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-transports-http-jetty\2.7.11\cxf-rt-transports-http-jetty-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-api\2.7.11\cxf-api-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.2.1\woodstox-core-asl-4.2.1.jar;C:\Users\kmaha\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\kmaha\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.1.0\xmlschema-core-2.1.0.jar;C:\Users\kmaha\.m2\repository\org\apache\geronimo\specs\geronimo-javamail_1.4_spec\1.7.1\geronimo-javamail_1.4_spec-1.7.1.jar;C:\Users\kmaha\.m2\repository\wsdl4j\wsdl4j\1.6.3\wsdl4j-1.6.3.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-transports-http\2.7.11\cxf-rt-transports-http-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-core\2.7.11\cxf-rt-core-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\eclipse\jetty\jetty-server\8.1.9.v20130131\jetty-server-8.1.9.v20130131.jar;C:\Users\kmaha\.m2\repository\org\eclipse\jetty\jetty-continuation\8.1.9.v20130131\jetty-continuation-8.1.9.v20130131.jar;C:\Users\kmaha\.m2\repository\org\eclipse\jetty\jetty-http\8.1.9.v20130131\jetty-http-8.1.9.v20130131.jar;C:\Users\kmaha\.m2\repository\org\eclipse\jetty\jetty-io\8.1.9.v20130131\jetty-io-8.1.9.v20130131.jar;C:\Users\kmaha\.m2\repository\org\eclipse\jetty\jetty-util\8.1.9.v20130131\jetty-util-8.1.9.v20130131.jar;C:\Users\kmaha\.m2\repository\org\eclipse\jetty\jetty-security\8.1.9.v20130131\jetty-security-8.1.9.v20130131.jar;C:\Users\kmaha\.m2\repository\org\apache\geronimo\specs\geronimo-servlet_3.0_spec\1.0\geronimo-servlet_3.0_spec-1.0.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-test-blueprint\2.13.1\camel-test-blueprint-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-test\2.13.1\camel-test-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-blueprint\2.13.1\camel-blueprint-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-core-xml\2.13.1\camel-core-xml-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-core-osgi\2.13.1\camel-core-osgi-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\aries\blueprint\org.apache.aries.blueprint\1.1.0\org.apache.aries.blueprint-1.1.0.jar;C:\Users\kmaha\.m2\repository\org\apache\aries\org.apache.aries.util\1.1.0\org.apache.aries.util-1.1.0.jar;C:\Users\kmaha\.m2\repository\org\apache\aries\proxy\org.apache.aries.proxy.impl\1.0.1\org.apache.aries.proxy.impl-1.0.1.jar;C:\Users\kmaha\.m2\repository\org\apache\aries\proxy\org.apache.aries.proxy.api\1.0.0\org.apache.aries.proxy.api-1.0.0.jar;C:\Users\kmaha\.m2\repository\com\googlecode\pojosr\de.kalpatec.pojosr.framework\0.2.1\de.kalpatec.pojosr.framework-0.2.1.jar;C:\Users\kmaha\.m2\repository\org\ops4j\pax\swissbox\pax-swissbox-tinybundles\1.3.1\pax-swissbox-tinybundles-1.3.1.jar;C:\Users\kmaha\.m2\repository\org\ops4j\base\ops4j-base-lang\1.2.2\ops4j-base-lang-1.2.2.jar;C:\Users\kmaha\.m2\repository\org\ops4j\base\ops4j-base-io\1.2.2\ops4j-base-io-1.2.2.jar;C:\Users\kmaha\.m2\repository\org\ops4j\base\ops4j-base-monitors\1.2.2\ops4j-base-monitors-1.2.2.jar;C:\Users\kmaha\.m2\repository\org\ops4j\base\ops4j-base-store\1.2.2\ops4j-base-store-1.2.2.jar;C:\Users\kmaha\.m2\repository\org\ops4j\pax\swissbox\pax-swissbox-bnd\1.3.1\pax-swissbox-bnd-1.3.1.jar;C:\Users\kmaha\.m2\repository\biz\aQute\bndlib\0.0.357\bndlib-0.0.357.jar;C:\Users\kmaha\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\kmaha\.m2\repository\org\apache\felix\org.apache.felix.configadmin\1.4.0.redhat-610379\org.apache.felix.configadmin-1.4.0.redhat-610379.jar;C:\Users\kmaha\.m2\repository\org\apache\felix\org.apache.felix.fileinstall\3.3.11.redhat-610379\org.apache.felix.fileinstall-3.3.11.redhat-610379.jar;C:\Users\kmaha\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\kmaha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\kmaha\AppData\Local\Temp\surefire4414942052893449824\surefirebooter6807233277394378500.jar C:\Users\kmaha\AppData\Local\Temp\surefire4414942052893449824 2020-11-09T13-59-42_980-jvmRun1 surefire2671418303324087669tmp surefire_02138228875301382529tmp"/>
+    <property name="surefire.test.class.path" value="D:\NEW-PROJECTS\bajji\vankaya\target\test-classes;D:\NEW-PROJECTS\bajji\vankaya\target\classes;C:\Users\kmaha\.m2\repository\org\ow2\asm\asm-all\4.0\asm-all-4.0.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-core\2.13.1\camel-core-2.13.1.jar;C:\Users\kmaha\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.6\jaxb-impl-2.2.6.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-cxf\2.13.1\camel-cxf-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-spring\2.13.1\camel-spring-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\springframework\spring-aop\3.2.8.RELEASE\spring-aop-3.2.8.RELEASE.jar;C:\Users\kmaha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kmaha\.m2\repository\org\springframework\spring-tx\3.2.8.RELEASE\spring-tx-3.2.8.RELEASE.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-cxf-transport\2.13.1\camel-cxf-transport-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-frontend-jaxrs\2.7.11\cxf-rt-frontend-jaxrs-2.7.11.jar;C:\Users\kmaha\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0-m10\javax.ws.rs-api-2.0-m10.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-bindings-xml\2.7.11\cxf-rt-bindings-xml-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-frontend-jaxws\2.7.11\cxf-rt-frontend-jaxws-2.7.11.jar;C:\Users\kmaha\.m2\repository\xml-resolver\xml-resolver\1.2\xml-resolver-1.2.jar;C:\Users\kmaha\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-frontend-simple\2.7.11\cxf-rt-frontend-simple-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-ws-addr\2.7.11\cxf-rt-ws-addr-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-ws-policy\2.7.11\cxf-rt-ws-policy-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\neethi\neethi\3.0.3\neethi-3.0.3.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-rs-security-oauth\2.7.11\cxf-rt-rs-security-oauth-2.7.11.jar;C:\Users\kmaha\.m2\repository\net\oauth\core\oauth-provider\20100527\oauth-provider-20100527.jar;C:\Users\kmaha\.m2\repository\net\oauth\core\oauth\20100527\oauth-20100527.jar;C:\Users\kmaha\.m2\repository\org\springframework\spring-core\3.2.8.RELEASE\spring-core-3.2.8.RELEASE.jar;C:\Users\kmaha\.m2\repository\org\springframework\spring-beans\3.2.8.RELEASE\spring-beans-3.2.8.RELEASE.jar;C:\Users\kmaha\.m2\repository\org\springframework\spring-context\3.2.8.RELEASE\spring-context-3.2.8.RELEASE.jar;C:\Users\kmaha\.m2\repository\org\springframework\spring-expression\3.2.8.RELEASE\spring-expression-3.2.8.RELEASE.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-features-clustering\2.7.11\cxf-rt-features-clustering-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-bindings-soap\2.7.11\cxf-rt-bindings-soap-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-databinding-jaxb\2.7.11\cxf-rt-databinding-jaxb-2.7.11.jar;C:\Users\kmaha\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\kmaha\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\kmaha\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-transports-http-jetty\2.7.11\cxf-rt-transports-http-jetty-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-api\2.7.11\cxf-api-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.2.1\woodstox-core-asl-4.2.1.jar;C:\Users\kmaha\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\kmaha\.m2\repository\org\apache\ws\xmlschema\xmlschema-core\2.1.0\xmlschema-core-2.1.0.jar;C:\Users\kmaha\.m2\repository\org\apache\geronimo\specs\geronimo-javamail_1.4_spec\1.7.1\geronimo-javamail_1.4_spec-1.7.1.jar;C:\Users\kmaha\.m2\repository\wsdl4j\wsdl4j\1.6.3\wsdl4j-1.6.3.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-transports-http\2.7.11\cxf-rt-transports-http-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\apache\cxf\cxf-rt-core\2.7.11\cxf-rt-core-2.7.11.jar;C:\Users\kmaha\.m2\repository\org\eclipse\jetty\jetty-server\8.1.9.v20130131\jetty-server-8.1.9.v20130131.jar;C:\Users\kmaha\.m2\repository\org\eclipse\jetty\jetty-continuation\8.1.9.v20130131\jetty-continuation-8.1.9.v20130131.jar;C:\Users\kmaha\.m2\repository\org\eclipse\jetty\jetty-http\8.1.9.v20130131\jetty-http-8.1.9.v20130131.jar;C:\Users\kmaha\.m2\repository\org\eclipse\jetty\jetty-io\8.1.9.v20130131\jetty-io-8.1.9.v20130131.jar;C:\Users\kmaha\.m2\repository\org\eclipse\jetty\jetty-util\8.1.9.v20130131\jetty-util-8.1.9.v20130131.jar;C:\Users\kmaha\.m2\repository\org\eclipse\jetty\jetty-security\8.1.9.v20130131\jetty-security-8.1.9.v20130131.jar;C:\Users\kmaha\.m2\repository\org\apache\geronimo\specs\geronimo-servlet_3.0_spec\1.0\geronimo-servlet_3.0_spec-1.0.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-test-blueprint\2.13.1\camel-test-blueprint-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-test\2.13.1\camel-test-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-blueprint\2.13.1\camel-blueprint-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-core-xml\2.13.1\camel-core-xml-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\camel\camel-core-osgi\2.13.1\camel-core-osgi-2.13.1.jar;C:\Users\kmaha\.m2\repository\org\apache\aries\blueprint\org.apache.aries.blueprint\1.1.0\org.apache.aries.blueprint-1.1.0.jar;C:\Users\kmaha\.m2\repository\org\apache\aries\org.apache.aries.util\1.1.0\org.apache.aries.util-1.1.0.jar;C:\Users\kmaha\.m2\repository\org\apache\aries\proxy\org.apache.aries.proxy.impl\1.0.1\org.apache.aries.proxy.impl-1.0.1.jar;C:\Users\kmaha\.m2\repository\org\apache\aries\proxy\org.apache.aries.proxy.api\1.0.0\org.apache.aries.proxy.api-1.0.0.jar;C:\Users\kmaha\.m2\repository\com\googlecode\pojosr\de.kalpatec.pojosr.framework\0.2.1\de.kalpatec.pojosr.framework-0.2.1.jar;C:\Users\kmaha\.m2\repository\org\ops4j\pax\swissbox\pax-swissbox-tinybundles\1.3.1\pax-swissbox-tinybundles-1.3.1.jar;C:\Users\kmaha\.m2\repository\org\ops4j\base\ops4j-base-lang\1.2.2\ops4j-base-lang-1.2.2.jar;C:\Users\kmaha\.m2\repository\org\ops4j\base\ops4j-base-io\1.2.2\ops4j-base-io-1.2.2.jar;C:\Users\kmaha\.m2\repository\org\ops4j\base\ops4j-base-monitors\1.2.2\ops4j-base-monitors-1.2.2.jar;C:\Users\kmaha\.m2\repository\org\ops4j\base\ops4j-base-store\1.2.2\ops4j-base-store-1.2.2.jar;C:\Users\kmaha\.m2\repository\org\ops4j\pax\swissbox\pax-swissbox-bnd\1.3.1\pax-swissbox-bnd-1.3.1.jar;C:\Users\kmaha\.m2\repository\biz\aQute\bndlib\0.0.357\bndlib-0.0.357.jar;C:\Users\kmaha\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\kmaha\.m2\repository\org\apache\felix\org.apache.felix.configadmin\1.4.0.redhat-610379\org.apache.felix.configadmin-1.4.0.redhat-610379.jar;C:\Users\kmaha\.m2\repository\org\apache\felix\org.apache.felix.fileinstall\3.3.11.redhat-610379\org.apache.felix.fileinstall-3.3.11.redhat-610379.jar;C:\Users\kmaha\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\kmaha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kmaha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="basedir" value="D:\NEW-PROJECTS\bajji\vankaya"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\kmaha\AppData\Local\Temp\surefire4414942052893449824\surefirebooter6807233277394378500.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="user.name" value="kmaha"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kmaha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kmaha\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="user.dir" value="D:\NEW-PROJECTS\bajji\vankaya"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\pytjon\python382\Scripts\;C:\pytjon\python382\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\SASHome\Secure\ccme4;C:\Program Files\SASHome\x86\Secure\ccme4;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_271\bin;D:\DEVOPS SOFTWARE\apache-maven-3.6.3\bin;D:\devOps Softwares\Git\cmd;C:\Users\kmaha\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testOrderOk" classname="bajji.OrderTest" time="9.455">
+    <system-out><![CDATA[2020-11-09 14:00:18,441 [main           ] INFO  AvailablePortFinder            - getNextAvailable(10000) -> 10000
+2020-11-09 14:00:18,519 [main           ] INFO  CamelBlueprintHelper           - Using Blueprint XML file: /D:/NEW-PROJECTS/bajji/vankaya/target/test-classes/camel-route-test.xml
+2020-11-09 14:00:18,642 [Thread-2       ] INFO  RawBuilder                     - Copy thread finished.
+2020-11-09 14:00:18,876 [main           ] INFO  Activator                      - Camel activator starting
+2020-11-09 14:00:18,891 [main           ] INFO  Activator                      - Camel activator started
+Unable to start bundle: 26
+2020-11-09 14:00:19,294 [main           ] INFO  CXFActivator                   - Adding the extensions from bundle org.apache.camel.camel-cxf-transport (5) [org.apache.camel.component.cxf.transport.CamelTransportFactory]
+2020-11-09 14:00:19,294 [main           ] INFO  CXFActivator                   - Adding the extensions from bundle org.apache.cxf.cxf-rt-bindings-xml (8) [org.apache.cxf.binding.xml.XMLBindingFactory, org.apache.cxf.binding.xml.wsdl11.XMLWSDLExtensionLoader]
+2020-11-09 14:00:19,294 [main           ] INFO  CXFActivator                   - Adding the extensions from bundle org.apache.cxf.cxf-rt-frontend-jaxws (9) [org.apache.cxf.jaxws.context.WebServiceContextResourceResolver]
+2020-11-09 14:00:19,294 [main           ] INFO  CXFActivator                   - Adding the extensions from bundle org.apache.cxf.cxf-rt-ws-addr (11) [org.apache.cxf.ws.addressing.policy.AddressingAssertionBuilder, org.apache.cxf.ws.addressing.policy.UsingAddressingAssertionBuilder, org.apache.cxf.ws.addressing.policy.AddressingPolicyInterceptorProvider, org.apache.cxf.ws.addressing.impl.AddressingWSDLExtensionLoader, org.apache.cxf.ws.addressing.WSAddressingFeature$WSAddressingFeatureApplier, org.apache.cxf.ws.addressing.MAPAggregator$MAPAggregatorLoader]
+2020-11-09 14:00:19,294 [main           ] INFO  CXFActivator                   - Adding the extensions from bundle org.apache.cxf.cxf-rt-ws-policy (12) [org.apache.cxf.ws.policy.PolicyEngine, org.apache.cxf.policy.PolicyDataEngine, org.apache.cxf.ws.policy.AssertionBuilderRegistry, org.apache.cxf.ws.policy.PolicyInterceptorProviderRegistry, org.apache.cxf.ws.policy.PolicyBuilder, org.apache.cxf.ws.policy.PolicyAnnotationListener, org.apache.cxf.ws.policy.attachment.ServiceModelPolicyProvider, org.apache.cxf.ws.policy.attachment.external.DomainExpressionBuilderRegistry, org.apache.cxf.ws.policy.attachment.external.EndpointReferenceDomainExpressionBuilder, org.apache.cxf.ws.policy.attachment.wsdl11.Wsdl11AttachmentPolicyProvider, org.apache.cxf.ws.policy.mtom.MTOMAssertionBuilder, org.apache.cxf.ws.policy.mtom.MTOMPolicyInterceptorProvider]
+2020-11-09 14:00:19,294 [main           ] INFO  CXFActivator                   - Adding the extensions from bundle org.apache.cxf.cxf-rt-bindings-soap (16) [org.apache.cxf.binding.soap.SoapBindingFactory, org.apache.cxf.binding.soap.SoapTransportFactory]
+2020-11-09 14:00:19,294 [main           ] INFO  CXFActivator                   - Adding the extensions from bundle org.apache.cxf.cxf-rt-transports-http-jetty (21) [org.apache.cxf.transport.http_jetty.JettyDestinationFactory, org.apache.cxf.transport.http_jetty.JettyHTTPServerEngineFactory, org.apache.cxf.transport.http.ContinuationProviderFactory]
+2020-11-09 14:00:19,294 [main           ] INFO  CXFActivator                   - Adding the extensions from bundle org.apache.cxf.cxf-rt-transports-http (27) [org.apache.cxf.transport.http.HTTPTransportFactory, org.apache.cxf.transport.http.HTTPWSDLExtensionLoader, org.apache.cxf.transport.http.policy.HTTPClientAssertionBuilder, org.apache.cxf.transport.http.policy.HTTPServerAssertionBuilder, org.apache.cxf.transport.http.policy.NoOpPolicyInterceptorProvider]
+2020-11-09 14:00:19,372 [main           ] INFO  BlueprintExtender              - No quiesce support is available, so blueprint components will not participate in quiesce operations
+2020-11-09 14:00:19,831 [int Extender: 1] INFO  BlueprintContainerImpl         - Bundle org.apache.cxf.cxf-rt-transports-http is waiting for namespace handlers [http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.0.0]
+2020-11-09 14:00:20,034 [main           ] INFO  OrderTest                      - ********************************************************************************
+2020-11-09 14:00:20,034 [main           ] INFO  OrderTest                      - Testing: testOrderOk(bajji.OrderTest)
+2020-11-09 14:00:20,034 [main           ] INFO  OrderTest                      - ********************************************************************************
+2020-11-09 14:00:22,117 [main           ] INFO  OrderTest                      - Skipping starting CamelContext as system property skipStartingCamelContext is set to be true.
+2020-11-09 14:00:22,117 [main           ] INFO  BlueprintCamelContext          - Apache Camel 2.13.1 (CamelContext: camel-1) is starting
+2020-11-09 14:00:22,117 [main           ] INFO  DefaultManagementStrategy      - JMX is disabled
+2020-11-09 14:00:22,195 [main           ] INFO  SedaEndpoint                   - Endpoint Endpoint[seda://incomingOrders] is using shared queue: seda://incomingOrders with size: 2147483647
+2020-11-09 14:00:22,258 [main           ] INFO  BlueprintCamelContext          - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2020-11-09 14:00:22,258 [main           ] INFO  BlueprintCamelContext          - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-11-09 14:00:22,336 [main           ] INFO  ReflectionServiceFactoryBean   - Creating Service {http://bajji/}OrderEndpointService from class bajji.OrderEndpoint
+2020-11-09 14:00:23,031 [main           ] INFO  ServerImpl                     - Setting the server's publish address to be http://localhost:10000/cxf/order/
+2020-11-09 14:00:23,078 [main           ] INFO  Server                         - jetty-8.1.9.v20130131
+2020-11-09 14:00:24,185 [main           ] INFO  AbstractConnector              - Started SelectChannelConnector@localhost:10000
+2020-11-09 14:00:24,215 [main           ] INFO  BlueprintCamelContext          - Route: route1 started and consuming from: Endpoint[cxf://bean:orderEndpoint]
+2020-11-09 14:00:24,231 [main           ] INFO  BlueprintCamelContext          - Route: route2 started and consuming from: Endpoint[seda://incomingOrders]
+2020-11-09 14:00:24,231 [main           ] INFO  BlueprintCamelContext          - Total 2 routes, of which 2 is started.
+2020-11-09 14:00:24,231 [main           ] INFO  BlueprintCamelContext          - Apache Camel 2.13.1 (CamelContext: camel-1) started in 2.114 seconds
+2020-11-09 14:00:24,231 [main           ] INFO  ReflectionServiceFactoryBean   - Creating Service {http://bajji/}OrderEndpointService from class bajji.OrderEndpoint
+2020-11-09 14:00:25,307 [main           ] INFO  OrderTest                      - ********************************************************************************
+2020-11-09 14:00:25,307 [main           ] INFO  OrderTest                      - Testing done: testOrderOk(bajji.OrderTest)
+2020-11-09 14:00:25,307 [main           ] INFO  OrderTest                      - Took: 3.190 seconds (3190 millis)
+2020-11-09 14:00:25,307 [main           ] INFO  OrderTest                      - ********************************************************************************
+2020-11-09 14:00:25,307 [main           ] INFO  BlueprintCamelContext          - Apache Camel 2.13.1 (CamelContext: camel-1) is shutting down
+2020-11-09 14:00:25,307 [main           ] INFO  DefaultShutdownStrategy        - Starting to graceful shutdown 2 routes (timeout 10 seconds)
+2020-11-09 14:00:26,248 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route2 shutdown complete, was consuming from: Endpoint[seda://incomingOrders]
+2020-11-09 14:00:26,248 [ - ShutdownTask] INFO  ContextHandler                 - stopped o.e.j.s.h.ContextHandler{/cxf/order,null}
+2020-11-09 14:00:26,248 [ - ShutdownTask] INFO  DefaultShutdownStrategy        - Route: route1 shutdown complete, was consuming from: Endpoint[cxf://bean:orderEndpoint]
+2020-11-09 14:00:26,248 [main           ] INFO  DefaultShutdownStrategy        - Graceful shutdown of 2 routes completed in 0 seconds
+2020-11-09 14:00:26,248 [main           ] INFO  BlueprintCamelContext          - Apache Camel 2.13.1 (CamelContext: camel-1) uptime 4.131 seconds
+2020-11-09 14:00:26,248 [main           ] INFO  BlueprintCamelContext          - Apache Camel 2.13.1 (CamelContext: camel-1) is shutdown in 0.941 seconds
+2020-11-09 14:00:26,248 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle OrderTest
+2020-11-09 14:00:26,352 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.cxf.cxf-rt-transports-http
+2020-11-09 14:00:26,352 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.aries.blueprint
+2020-11-09 14:00:26,352 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.camel.camel-blueprint
+2020-11-09 14:00:26,352 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.cxf.cxf-rt-core
+2020-11-09 14:00:26,352 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.cxf.cxf-api
+2020-11-09 14:00:26,352 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.cxf.cxf-rt-ws-policy
+2020-11-09 14:00:26,368 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.cxf.cxf-rt-transports-http-jetty
+2020-11-09 14:00:26,368 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.cxf.cxf-rt-bindings-soap
+2020-11-09 14:00:26,368 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.cxf.cxf-rt-features-clustering
+2020-11-09 14:00:26,368 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.cxf.cxf-rt-frontend-jaxws
+2020-11-09 14:00:26,368 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.cxf.cxf-rt-ws-addr
+2020-11-09 14:00:26,368 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.cxf.cxf-rt-frontend-simple
+2020-11-09 14:00:26,368 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.camel.camel-cxf
+2020-11-09 14:00:26,368 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.camel.camel-cxf-transport
+2020-11-09 14:00:26,368 [main           ] INFO  BlueprintExtender              - Destroying BlueprintContainer for bundle org.apache.cxf.cxf-rt-frontend-jaxrs
+2020-11-09 14:00:26,368 [main           ] INFO  CXFActivator                   - Removing the extensions for bundle 5
+2020-11-09 14:00:26,368 [main           ] INFO  CXFActivator                   - Removing the extensions for bundle 8
+2020-11-09 14:00:26,368 [main           ] INFO  CXFActivator                   - Removing the extensions for bundle 9
+2020-11-09 14:00:26,368 [main           ] INFO  CXFActivator                   - Removing the extensions for bundle 11
+2020-11-09 14:00:26,368 [main           ] INFO  CXFActivator                   - Removing the extensions for bundle 12
+2020-11-09 14:00:26,368 [main           ] INFO  CXFActivator                   - Removing the extensions for bundle 16
+2020-11-09 14:00:26,368 [main           ] INFO  CXFActivator                   - Removing the extensions for bundle 21
+2020-11-09 14:00:26,368 [main           ] INFO  CXFActivator                   - Removing the extensions for bundle 27
+2020-11-09 14:00:26,368 [main           ] INFO  Activator                      - Camel activator stopping
+2020-11-09 14:00:26,368 [main           ] INFO  Activator                      - Camel activator stopped
+2020-11-09 14:00:26,368 [main           ] INFO  CamelBlueprintHelper           - Deleting work directory target/bundles/1604910618519
+]]></system-out>
+    <system-err><![CDATA[org.osgi.framework.BundleException: Unable to start bundle
+	at de.kalpatec.pojosr.framework.PojoSRBundle.start(PojoSRBundle.java:144)
+	at de.kalpatec.pojosr.framework.PojoSR.startBundles(PojoSR.java:406)
+	at de.kalpatec.pojosr.framework.PojoSR.<init>(PojoSR.java:323)
+	at de.kalpatec.pojosr.framework.PojoServiceRegistryFactoryImpl.newPojoServiceRegistry(PojoServiceRegistryFactoryImpl.java:51)
+	at org.apache.camel.test.blueprint.CamelBlueprintHelper.createBundleContext(CamelBlueprintHelper.java:137)
+	at org.apache.camel.test.blueprint.CamelBlueprintHelper.createBundleContext(CamelBlueprintHelper.java:102)
+	at org.apache.camel.test.blueprint.CamelBlueprintTestSupport.createBundleContext(CamelBlueprintTestSupport.java:66)
+	at org.apache.camel.test.blueprint.CamelBlueprintTestSupport.setUp(CamelBlueprintTestSupport.java:130)
+	at bajji.OrderTest.setUp(OrderTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:364)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:237)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.lang.NoClassDefFoundError: org/osgi/service/log/LogService
+	at org.apache.geronimo.mail.Activator.start(Activator.java:52)
+	at de.kalpatec.pojosr.framework.PojoSRBundle.start(PojoSRBundle.java:132)
+	... 38 more
+Caused by: java.lang.ClassNotFoundException: org.osgi.service.log.LogService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 40 more
+]]></system-err>
+  </testcase>
+</testsuite>
